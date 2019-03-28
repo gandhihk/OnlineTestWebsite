@@ -20,7 +20,6 @@ mysqli_select_db($con, 'website');
 $name = $_GET['username'];
 $pass = $_GET['password'];
 $usertype = $_GET['usertype'];
-$divs = $_GET['divi'];
 
 if($usertype == "student"){
 $usertype = "students";
